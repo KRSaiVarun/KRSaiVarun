@@ -7,9 +7,8 @@
     background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #ffeaa7, #ff9ff3);
     background-size: 300% 300%;
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: gradient 3s ease infinite;
+    background-clip: text;
     font-weight: bold;
     margin-bottom: 5px;
 ">
@@ -18,7 +17,6 @@
 
 <p style="
     display: inline-block;
-    animation: float 3s ease-in-out infinite;
     font-weight: 600;
     color: #2d3436;
     background: linear-gradient(45deg, #dfe6e9, #b2bec3);
@@ -40,18 +38,16 @@
       background: linear-gradient(90deg, #6c5ce7, #a29bfe);
       border-radius: 2px;
       margin: 20px auto;
-      animation: pulse 2s infinite;
   "></div>
 </div>
 
-## 🚀 <span style="animation: glow 2s ease-in-out infinite;">About Me</span>
+## 🚀 About Me
 
 <div style="
     padding: 20px;
     border-radius: 12px;
     background: linear-gradient(145deg, #f8f9fa, #e9ecef);
     border-left: 5px solid #6c5ce7;
-    animation: slideIn 1s ease-out;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 ">
 Passionate full-stack developer specializing in building robust web applications with Python, Django, Flask, and React.js. I enjoy transforming academic projects into production-ready solutions and continuously expanding my skills in web development and emerging technologies.
@@ -69,8 +65,6 @@ Passionate full-stack developer specializing in building robust web applications
     border-radius: 12px;
     border-top: 4px solid #ff6b6b;
     box-shadow: 0 4px 15px rgba(255, 107, 107, 0.1);
-    transition: transform 0.3s ease;
-    animation: fadeInUp 0.8s ease-out 0.1s both;
 ">
 ### 🔭 **Currently Working On**
 - Full-stack web applications using **Python, Django, Flask, and React.js**
@@ -85,8 +79,6 @@ Passionate full-stack developer specializing in building robust web applications
     border-radius: 12px;
     border-top: 4px solid #4ecdc4;
     box-shadow: 0 4px 15px rgba(78, 205, 196, 0.1);
-    transition: transform 0.3s ease;
-    animation: fadeInUp 0.8s ease-out 0.2s both;
 ">
 ### 🌱 **Currently Learning**
 - **Advanced Django & REST APIs**
@@ -102,8 +94,6 @@ Passionate full-stack developer specializing in building robust web applications
     border-radius: 12px;
     border-top: 4px solid #45b7d1;
     box-shadow: 0 4px 15px rgba(69, 183, 209, 0.1);
-    transition: transform 0.3s ease;
-    animation: fadeInUp 0.8s ease-out 0.3s both;
 ">
 ### 👯 **Open to Collaborate On**
 - Open-source **web development** projects
@@ -125,8 +115,6 @@ Passionate full-stack developer specializing in building robust web applications
     border-radius: 12px;
     border-top: 4px solid #96ceb4;
     box-shadow: 0 4px 15px rgba(150, 206, 180, 0.1);
-    transition: transform 0.3s ease;
-    animation: fadeInUp 0.8s ease-out 0.4s both;
 ">
 ### 💬 **Ask Me About**
 - **Java, Python, Flask & Django**
@@ -143,8 +131,6 @@ Passionate full-stack developer specializing in building robust web applications
     border-radius: 12px;
     border-top: 4px solid #ff9ff3;
     box-shadow: 0 4px 15px rgba(255, 159, 243, 0.1);
-    transition: transform 0.3s ease;
-    animation: fadeInUp 0.8s ease-out 0.5s both;
 ">
 ### ⚡ **Fun Fact**
 I love turning **college projects into production-ready applications** 🚀  
@@ -162,67 +148,8 @@ I love turning **college projects into production-ready applications** 🚀
       background: linear-gradient(90deg, transparent, #6c5ce7, transparent);
       border-radius: 1px;
       margin: 30px auto;
-      animation: shimmer 3s infinite;
   "></div>
 </div>
-
-<style>
-@keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-@keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-5px); }
-    100% { transform: translateY(0px); }
-}
-
-@keyframes pulse {
-    0% { opacity: 0.7; width: 80px; }
-    50% { opacity: 1; width: 100px; }
-    100% { opacity: 0.7; width: 80px; }
-}
-
-@keyframes glow {
-    0% { text-shadow: 0 0 5px rgba(108, 92, 231, 0.5); }
-    50% { text-shadow: 0 0 20px rgba(108, 92, 231, 0.8); }
-    100% { text-shadow: 0 0 5px rgba(108, 92, 231, 0.5); }
-}
-
-@keyframes slideIn {
-    from { 
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    to { 
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeInUp {
-    from { 
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to { 
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes shimmer {
-    0% { background-position: -200px 0; }
-    100% { background-position: 200px 0; }
-}
-
-div[style*="min-width: 250px"]:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-}
-</style>
 
 ## 🛠️ Tech Stack
 
@@ -281,7 +208,6 @@ Security vulnerability scanner for learning cybersecurity
 
 ---
 
-
 ## 🤝 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/k-r-sai-varun-891788262/)
@@ -289,5 +215,3 @@ Security vulnerability scanner for learning cybersecurity
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](#)
 
 ---
-
-
