@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Sai Varun K R
+# 👋 Hi, I'm K R Sai Varun 
 
 <p align="center">
 🎓 <strong>Full-Stack Developer | BCA | MCA Student</strong><br>
