@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Mono&weight=700&size=26&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Sai+Varun+%F0%9F%91%8B;Full-Stack+Developer;Django+%E2%80%A2+React+%E2%80%A2+AI-Powered+Apps;Turning+Ideas+into+Production+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=26&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Sai+Varun+%F0%9F%91%8B;Full-Stack+Developer;Django+%E2%80%A2+React+%E2%80%A2+AI-Powered+Apps;Turning+Ideas+into+Production+Systems" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=krsaivarun&label=Profile+Views&color=00d9ff&style=flat-square" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=KRSaiVarun&label=Profile+Views&color=00d9ff&style=flat-square" alt="Profile Views" />
   &nbsp;
   <a href="https://www.linkedin.com/in/k-r-sai-varun-891788262/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
@@ -11,6 +11,10 @@
   &nbsp;
   <a href="https://github.com/KRSaiVarun">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:krsaivarun@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
   <img src="https://img.shields.io/badge/Open%20To-Opportunities-00d9ff?style=flat-square" />
@@ -110,7 +114,7 @@ DevOps/Tools  →  Git · GitHub · Postman · VS Code · Power BI
 ### ✈️ Vayu Vihar — Helicopter Booking System
 > **Problem:** No streamlined, secure platform for helicopter booking with real-time user management
 > **Solution:** Built a full-stack booking system with JWT-secured auth, dynamic seat management, and API-driven booking workflows
-> **Impact:** 500+ test bookings with zero auth vulnerabilities · 40% efficiency gain · clean UX across the full reservation lifecycle
+> **Impact:** 500+ test bookings · zero auth vulnerabilities · 40% efficiency gain · clean UX across the full reservation lifecycle
 
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
@@ -118,7 +122,7 @@ DevOps/Tools  →  Git · GitHub · Postman · VS Code · Power BI
 ![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
-🔗 [View Repository](https://github.com/KRSaiVarun)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/KRSaiVarun/vayu-vihar)
 
 ---
 
@@ -132,7 +136,7 @@ DevOps/Tools  →  Git · GitHub · Postman · VS Code · Power BI
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB)
 
-🔗 [View Repository](https://github.com/KRSaiVarun)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/KRSaiVarun/datainsight-hub)
 
 ---
 
@@ -146,7 +150,7 @@ DevOps/Tools  →  Git · GitHub · Postman · VS Code · Power BI
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
 
-🔗 [View Repository](https://github.com/KRSaiVarun)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/KRSaiVarun/pdf-analysis-tool)
 
 ---
 
@@ -159,7 +163,7 @@ DevOps/Tools  →  Git · GitHub · Postman · VS Code · Power BI
 ![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-FF0000?style=flat-square&logo=shield&logoColor=white)
 
-🔗 [View Repository](https://github.com/KRSaiVarun)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/KRSaiVarun/cyberscan-pro)
 
 ---
 
@@ -172,7 +176,7 @@ DevOps/Tools  →  Git · GitHub · Postman · VS Code · Power BI
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white)
 
-🔗 [View Repository](https://github.com/KRSaiVarun)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)](https://github.com/KRSaiVarun/careernavigator)
 
 ---
 
@@ -196,10 +200,21 @@ DevOps/Tools  →  Git · GitHub · Postman · VS Code · Power BI
 ## 🎓 Certifications
 
 - 🏢 **Accenture UK** — Developer & Technology Job Simulation (SDLC, Agile, Enterprise Dev)
-- 📜 **Simplilearn** — JavaScript for Beginners
 - 📜 **100xDevs** — JavaScript: Basics to Advanced
+- 📜 **Simplilearn** — JavaScript for Beginners
 - 🔐 **Simplilearn** — Introduction to Cyber Security
 - 🤖 **Simplilearn** — Introduction to Artificial Intelligence
+
+---
+
+## 📚 Currently Learning
+
+<p align="left">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+</p>
 
 ---
 
@@ -230,7 +245,7 @@ DevOps/Tools  →  Git · GitHub · Postman · VS Code · Power BI
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Mono&size=13&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Available+for+opportunities+%F0%9F%9A%80;Let's+build+something+real+together+%F0%9F%A4%9D;krsaivarun%40gmail.com" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=13&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Available+for+opportunities+%F0%9F%9A%80;Let's+build+something+real+together+%F0%9F%A4%9D;krsaivarun%40gmail.com" />
 </p>
 
 ---
