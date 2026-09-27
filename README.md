@@ -1,18 +1,3 @@
-
-<!-- =========================================================
-     K.R. SAI VARUN — GITHUB PROFILE README
-     ========================================================= -->
-
-<div align="center">
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRSaiVarun/KRSaiVarun/main/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KRSaiVarun/KRSaiVarun/main/light.svg">
-    <img src="https://raw.githubusercontent.com/KRSaiVarun/KRSaiVarun/main/dark.svg" alt="K.R. Sai Varun — Full-Stack Developer, Data Analyst, and AI Enthusiast" width="100%">
-  </picture>
-
-  <br/>
-
   <h1>Hi, I'm K.R. Sai Varun 👋</h1>
 
   <h3>Full-Stack Developer | Data Analyst | AI Enthusiast</h3>
@@ -37,6 +22,21 @@
   <img src="https://komarev.com/ghpvc/?username=KRSaiVarun&style=flat-square&color=00D9FF&label=PROFILE+VIEWS" alt="Profile views">
 
 </div>
+
+<!-- =========================================================
+     K.R. SAI VARUN — GITHUB PROFILE README
+     ========================================================= -->
+
+<div align="center">
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KRSaiVarun/KRSaiVarun/main/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KRSaiVarun/KRSaiVarun/main/light.svg">
+    <img src="https://raw.githubusercontent.com/KRSaiVarun/KRSaiVarun/main/dark.svg" alt="K.R. Sai Varun — Full-Stack Developer, Data Analyst, and AI Enthusiast" width="100%">
+  </picture>
+
+  <br/>
+
 
 ---
 
