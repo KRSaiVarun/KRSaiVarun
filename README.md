@@ -2,17 +2,14 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="./dark.svg"
-    >
+      srcset="https://raw.githubusercontent.com/KRSaiVarun/KRSaiVarun/main/dark.svg">
     <source
       media="(prefers-color-scheme: light)"
-      srcset="./light.svg"
-    >
+      srcset="https://raw.githubusercontent.com/KRSaiVarun/KRSaiVarun/main/light.svg">
     <img
-      src="./dark.svg"
-      alt="K.R. Sai Varun | Full-Stack Developer, Data Analyst, and AI Enthusiast"
-      width="100%"
-    >
+      src="https://raw.githubusercontent.com/KRSaiVarun/KRSaiVarun/main/dark.svg"
+      alt="K.R. Sai Varun — Full-Stack Developer, Data Analyst, and AI Enthusiast"
+      width="100%">
   </picture>
 </p>
 
