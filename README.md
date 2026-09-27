@@ -1,8 +1,18 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-    <img src="./dark.svg" alt="K.R. Sai Varun — Full-Stack Developer profile. Django, React, AI-powered applications." width="100%">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./light.svg"
+    >
+    <img
+      src="./dark.svg"
+      alt="K.R. Sai Varun | Full-Stack Developer, Data Analyst, and AI Enthusiast"
+      width="100%"
+    >
   </picture>
 </p>
 
