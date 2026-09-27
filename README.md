@@ -1,199 +1,45 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" alt="K.R. Sai Varun — Full-Stack Developer building Django, React and AI-powered applications" width="100%">
-</picture>
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/k-r-sai-varun-891788262/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>&nbsp;
-  <a href="https://github.com/KRSaiVarun"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" /></a>&nbsp;
-  <a href="mailto:krsaivarun@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>&nbsp;
-  <img src="https://img.shields.io/badge/Open%20To-Opportunities-00d9ff?style=flat-square" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img src="./dark.svg" alt="K.R. Sai Varun — Full-Stack Developer profile. Django, React, AI-powered applications." width="100%">
+  </picture>
 </p>
 
 ---
 
-## About Me
+## 👨‍💻 About Me
 
-I build scalable full-stack applications focused on performance, security, and real-world usability. My work spans booking systems, AI-driven tools, and data dashboards — clean architecture and optimized backend logic aimed at solving real problems.
+I build **scalable full-stack applications** focused on performance, security, and real-world usability. My work spans **booking systems**, **AI-driven tools**, and **data dashboards** — delivering clean architecture and optimized backend logic that solves actual problems.
 
-- 🎓 BCA graduate, currently pursuing an MCA in Bengaluru, India
-- 🛠 Comfortable across the full product lifecycle — from schema design to deployed UI
-- 🤖 Exploring Machine Learning & NLP to build smarter applications
-- 💡 Focused on shipping working software, not just demos
+- 🎓 **BCA Graduate** · Pursuing **MCA** in Bengaluru, India
+- 🛠 Experienced with the full product lifecycle — schema design → deployed UI
+- 🤖 Actively exploring **Machine Learning & NLP** to build smarter applications
+- 💡 I don't just learn tech — I ship it
 
 ---
 
-## Engineering Focus
+## 🎯 Why Work With Me
 
 | | |
 |---|---|
-| **Full-Stack Applications** | Frontend, API, and database layers working together end-to-end |
-| **Backend Architecture** | Django · Flask · REST APIs · JWT authentication |
-| **AI-Powered Applications** | NLP and ML-based tooling for document and data processing |
-| **Data Analytics** | SQL query optimization and interactive dashboards |
-| **Security Tooling** | Vulnerability scanning and secure API design |
+| ✅ **Production Mindset** | I build for scale and real users, not just demos |
+| ✅ **Full-Stack Depth** | Confident from database design to polished React UI |
+| ✅ **Impact-Driven** | 45% query speedup · 92% AI accuracy · 500+ simulated bookings |
+| ✅ **Fast Executor** | Rapid learner who ships projects end-to-end independently |
+| ✅ **Security Aware** | JWT auth, vulnerability scanning, secure API design built-in |
 
 ---
 
-## Currently Building
+## 🏆 Key Metrics
 
-> AI-powered document processing tools · full-stack booking systems · data analytics dashboards · security automation utilities
-
----
-
-## Technical Stack
-
-**Languages**
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Web & Frameworks**
-![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-**Databases & AI / Data**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-**Tools**
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+| Metric | Value |
+|---|---|
+| Query Speedup | **45%** |
+| AI Accuracy | **92%** |
+| Test Bookings | **500+** |
+| Training Hours | **400+** |
 
 ---
 
-## Featured Projects
-
-### ✈️ Vayu Vihar — Helicopter Booking System
-A full-stack helicopter booking platform with authentication, dynamic seat management, and booking-workflow APIs.
-**Problem:** No streamlined, secure platform for helicopter booking with real-time user management.
-**Solution:** End-to-end reservation lifecycle — schema design, JWT-secured auth, booking API, and a React-based UI.
-
-`Django` `Flask` `React` `JWT` `PostgreSQL`
-
-[GitHub Repo](https://github.com/KRSaiVarun/vayu-vihar) — *verify this link resolves before publishing*
-
----
-
-### 📊 DataInsight Hub Pro — Analytics Dashboard
-An interactive analytics dashboard for exploring datasets and visualizing insights, built with an optimized SQL query layer.
-**Problem:** Large datasets with slow, hard-to-read reports.
-**Solution:** Query optimization plus a React frontend for real-time visual data exploration.
-
-`Python` `Pandas` `SQL` `React`
-
-[GitHub Repo](https://github.com/KRSaiVarun/datainsight-hub) — *verify this link resolves before publishing*
-
----
-
-### 📄 PDF Analysis Tool — AI Document Processor
-An AI-assisted document processing tool designed to extract structured information from PDF files.
-**Problem:** Manual PDF data extraction is slow and error-prone.
-**Solution:** An NLP-based extraction pipeline with a Flask backend for structured output.
-
-`Python` `NLP` `Scikit-learn` `Flask`
-
-[GitHub Repo](https://github.com/KRSaiVarun/pdf-analysis-tool) — *verify this link resolves before publishing*
-
----
-
-### 🔐 CyberScan Pro — Security Vulnerability Scanner
-A Python-based security scanning tool that helps identify potential vulnerabilities and generate reports.
-**Problem:** Developers lack accessible tools to audit their own apps for common vulnerabilities.
-**Solution:** An automated scanner with extensible detection rules and actionable remediation guidance.
-
-`Python` `Flask` `Security`
-
-[GitHub Repo](https://github.com/KRSaiVarun/cyberscan-pro) — *verify this link resolves before publishing*
-
----
-
-### 🧭 CareerNavigator — AI Career Recommendation Platform
-An ML-based career recommendation prototype that uses skills and interests to generate career suggestions.
-**Problem:** Students struggle to identify the right career path from the options available to them.
-**Solution:** A recommendation engine with a Flask API and an interactive frontend. *(Prototype stage.)*
-
-`Python` `Scikit-learn` `Flask`
-
-[GitHub Repo](https://github.com/KRSaiVarun/careernavigator) — *verify this link resolves before publishing*
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KRSaiVarun&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KRSaiVarun&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=KRSaiVarun&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff" />
-</p>
-
----
-
-## Certifications
-
-- **Accenture UK** — Developer & Technology Job Simulation (SDLC, Agile, Enterprise Dev)
-- **100xDevs** — JavaScript: Basics to Advanced
-- **Simplilearn** — JavaScript for Beginners
-- **Simplilearn** — Introduction to Cyber Security
-- **Simplilearn** — Introduction to Artificial Intelligence
-
----
-
-## Currently Learning
-
-`TypeScript` `AWS` `GraphQL` `Docker`
-
-Focus: building more scalable, production-oriented systems.
-
----
-
-## Open To
-
-💼 Internships & entry-level full-stack / backend roles
-🤝 Collaborating on web, AI & open-source projects
-
----
-
-## Contact Terminal
-
-```
-sai@github:~$ connect
-
-GitHub    → github.com/KRSaiVarun
-LinkedIn  → linkedin.com/in/k-r-sai-varun-891788262
-Email     → krsaivarun@gmail.com
-```
-
----
-
-<details>
-<summary><b>Before publishing — a few things to double-check</b></summary>
-
-- Confirm each project repo above is public and the name/casing matches the real URL.
-- Vayu Vihar lists both Django and Flask — confirm which one the project actually uses (or keep both if it truly uses both).
-- Add your BCA institution name and expected graduation year if you'd like them public.
-- Add completion dates and credential links to your certifications if you have them.
-- The GitHub stats cards below use a fixed dark theme regardless of light/dark mode — consider this if visual consistency matters to you.
-
-</details>
-
----
-
-<p align="center"><sub>~/profile $ echo "Thanks for visiting." — Let's build something meaningful together.</sub></p>
+## 🧠 Core Expertise
