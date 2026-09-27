@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="K.R. Sai Varun — Full-Stack Developer profile. Django, React, AI-powered applications.">
+  <defs>
+    <radialGradient id="bg-glow-l" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#EEF6FF" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#F8FAFC" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="1"/>
+    </radialGradient>
+
+    <linearGradient id="accent-flow-l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <linearGradient id="edge-shimmer-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#2563EB" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.9"/>
+      <stop offset="78%" stop-color="#06B6D4" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="scan-grad-l" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feOffset in="blur" dx="0" dy="2" result="off"/>
+      <feColorMatrix in="off" type="matrix" values="0 0 0 0 0.10  0 0 0 0 0.15  0 0 0 0 0.25  0 0 0 0.18 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <pattern id="grid-dots-l" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="0.7" fill="#2563EB" opacity="0.10"/>
+    </pattern>
+
+    <clipPath id="portrait-clip-l">
+      <rect x="55" y="118" width="410" height="420" rx="10"/>
+    </clipPath>
+
+    <mask id="type-mask-1-l">
+      <rect x="0" y="0" width="0" height="40" fill="#fff">
+        <animate attributeName="width" from="0" to="440" dur="0.9s" begin="0.4s" fill="freeze"/>
+      </rect>
+    </mask>
+    <mask id="type-mask-2-l">
+      <rect x="0" y="0" width="0" height="40" fill="#fff">
+        <animate attributeName="width" from="0" to="440" dur="0.7s" begin="1.3s" fill="freeze"/>
+      </rect>
+    </mask>
+    <mask id="type-mask-3-l">
+      <rect x="0" y="0" width="0" height="40" fill="#fff">
+        <animate attributeName="width" from="0" to="440" dur="1.1s" begin="2.0s" fill="freeze"/>
+      </rect>
+    </mask>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .label { fill: #2563EB; font-weight: 600; letter-spacing: 2px; }
+    .value { fill: #0F172A; }
+    .muted { fill: #475569; }
+    .accent { fill: #0891B2; }
+    .violet { fill: #7C3AED; }
+    .ok { fill: #059669; }
+  </style>
+
+  <!-- Outer frame -->
+  <rect x="12" y="12" width="1156" height="586" rx="22" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.4" stroke-opacity="0.45" filter="url(#soft-shadow)"/>
+  <rect x="15" y="15" width="1150" height="580" rx="20" fill="url(#bg-glow-l)"/>
+  <rect x="15" y="15" width="1150" height="580" rx="20" fill="url(#grid-dots-l)"/>
+
+  <rect x="15" y="15" width="1150" height="580" rx="20" fill="none" stroke="url(#edge-shimmer-l)" stroke-width="1.6" stroke-dasharray="140 980">
+    <animate attributeName="stroke-dashoffset" from="0" to="-1120" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Top terminal bar -->
+  <circle cx="46" cy="46" r="6" fill="#FF5F56"/>
+  <circle cx="66" cy="46" r="6" fill="#FFBD2E"/>
+  <circle cx="86" cy="46" r="6" fill="#27C93F"/>
+
+  <text x="112" y="51" class="mono label" font-size="12">sai@developer:~</text>
+  <text x="298" y="51" class="mono" font-size="11" fill="#059669" opacity="0.95">[ ● ONLINE ]</text>
+
+  <text x="980" y="51" class="mono muted" font-size="11">&lt;&gt; Code</text>
+  <text x="1052" y="51" class="mono muted" font-size="11">Projects</text>
+
+  <line x1="30" y1="66" x2="1150" y2="66" stroke="#2563EB" stroke-opacity="0.18"/>
+
+  <!-- LEFT PANEL -->
+  <g transform="translate(0,0)">
+    <rect x="40" y="88" width="440" height="494" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#2563EB" stroke-opacity="0.28" stroke-width="1"/>
+    <path d="M 52 88 L 152 88 L 142 106 L 52 106 Z" fill="#2563EB" fill-opacity="0.12"/>
+    <text x="58" y="101" class="mono label" font-size="10" letter-spacing="1.6">VISUAL.MAP</text>
+
+    <g clip-path="url(#portrait-clip-l)">
+      <rect x="55" y="118" width="410" height="420" fill="#F1F7FF"/>
+      <g class="mono" font-size="9.5" fill="#2563EB" opacity="0.85">
+        <text x="70" y="140">........................::::::::::::::::::::::::::::........................</text>
+        <text x="70" y="152">..................::::::::::::::::::::::::::::::::::::::::::::::::..........</text>
+        <text x="70" y="164">..............::::::::::::::::::::::::::::::::::::::::::::::::::::::::......</text>
+        <text x="70" y="176">...........::::::::::::::::::::--------------::::::::::::::::::::...........</text>
+        <text x="70" y="188">.........::::::::::::::----------==========----------::::::::::::::.........</text>
+        <text x="70" y="200">........::::::::::::-------=====++++++++++=====-------::::::::::::........</text>
+        <text x="70" y="212">.......::::::::::------=====+++++******+++++=====------::::::::::.......</text>
+        <text x="70" y="224">......::::::::::-----====++++*************++++====-----::::::::::......</text>
+        <text x="70" y="236">.....:::::::::-----====+++*******************+++====-----:::::::::.....</text>
+        <text x="70" y="248">.....:::::::-----====+++*******#########*******+++====-----:::::::.....</text>
+        <text x="70" y="260">....:::::::-----====+++*****##############*****+++====-----:::::::....</text>
+        <text x="70" y="272">....::::::-----====+++*******#############*******+++====-----::::::....</text>
+        <text x="70" y="284">....::::::-----===+++*********##########*********+++===-----::::::.....</text>
+        <text x="70" y="296">....::::::-----===+++********##################********+++===-----::::::</text>
+        <text x="70" y="308">....::::::-----===+++*******####################*******+++===-----:::::.</text>
+        <text x="70" y="320">....:::::::-----====+++*****####################*****+++====-----::::::...</text>
+        <text x="70" y="332">.....:::::::-----====+++*******##############*******+++====-----::::::.....</text>
+        <text x="70" y="344">.....:::::::::-----====+++*******#############*******+++====-----:::::.....</text>
+        <text x="70" y="356">......:::::::::-----====+++*******#############*******+++====-----:::::...</text>
+        <text x="70" y="368">.......:::::::::------====++++***************++++====------:::::::::....</text>
+        <text x="70" y="380">........:::::::::::------=====+++++*****+++++=====------:::::::::::.....</text>
+        <text x="70" y="392">..........:::::::::::-------=====+++++++=====-------:::::::::::.........</text>
+        <text x="70" y="404">............:::::::::::::-----==========-----:::::::::::::...........</text>
+        <text x="70" y="416">..............:::::::::::::::----------:::::::::::::::..............</text>
+        <text x="70" y="428">.................::::::::::::::::::::::::::::::::::.................</text>
+        <text x="70" y="440">.....................::::::::::::::::::::::::.......................</text>
+        <text x="70" y="452">........................::::::::::::::::..........................</text>
+        <text x="70" y="464">...........................::::::::::::...........................</text>
+        <text x="70" y="476">..............................::::::..............................</text>
+        <text x="70" y="488">................................::................................</text>
+      </g>
+      <g class="mono" font-size="9.5" fill="#0F172A" opacity="0.85">
+        <text x="118" y="278">●●●●●</text>
+        <text x="230" y="278">●●●●●</text>
+        <text x="128" y="290">╲   ╱</text>
+      </g>
+
+      <line x1="55" y1="118" x2="465" y2="118" stroke="url(#scan-grad-l)" stroke-width="20" opacity="0.55">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 420" dur="5s" repeatCount="indefinite"/>
+      </line>
+
+      <rect x="55" y="118" width="410" height="420" fill="#F1F7FF">
+        <animate attributeName="opacity" from="1" to="0" dur="0.6s" fill="freeze"/>
+      </rect>
+    </g>
+
+    <text x="62" y="558" class="mono label" font-size="10" letter-spacing="1.6" opacity="0.9">[ PROFILE / ENGINEERING ]</text>
+    <text x="62" y="575" class="mono" font-size="11" fill="#0F172A">Full-Stack Developer</text>
+  </g>
+
+  <!-- RIGHT PANEL -->
+  <g transform="translate(500,0)">
+    <rect x="20" y="88" width="620" height="494" rx="16" fill="#FFFFFF" fill-opacity="0.9" stroke="#2563EB" stroke-opacity="0.28" stroke-width="1"/>
+    <path d="M 34 88 L 152 88 L 142 106 L 34 106 Z" fill="#2563EB" fill-opacity="0.12"/>
+    <text x="40" y="101" class="mono label" font-size="10" letter-spacing="1.6">SYSTEM.INFO</text>
+
+    <text x="40" y="132" class="mono" font-size="11" fill="#475569">sai@developer:~$ ./profile.sh</text>
+
+    <g mask="url(#type-mask-1-l)">
+      <text x="40" y="168" class="mono label" font-size="11">NAME</text>
+      <text x="180" y="168" class="mono value" font-size="14" font-weight="700">K.R. Sai Varun</text>
+    </g>
+
+    <g mask="url(#type-mask-2-l)">
+      <text x="40" y="202" class="mono label" font-size="11">ROLE</text>
+      <text x="180" y="202" class="mono accent" font-size="13" font-weight="600">Full-Stack Developer · AI Builder</text>
+    </g>
+
+    <g mask="url(#type-mask-3-l)">
+      <text x="40" y="236" class="mono label" font-size="11">LOCATION</text>
+      <text x="180" y="236" class="mono value" font-size="12">Bengaluru, India</text>
+    </g>
+
+    <text x="40" y="270" class="mono label" font-size="11">EDUCATION</text>
+    <text x="180" y="270" class="mono value" font-size="12">BCA Graduate · Pursuing MCA</text>
+
+    <text x="40" y="304" class="mono label" font-size="11">FOCUS</text>
+    <text x="180" y="304" class="mono value" font-size="12">Django · React · REST APIs · NLP · Analytics</text>
+
+    <text x="40" y="338" class="mono label" font-size="11">STATUS</text>
+    <circle cx="186" cy="334" r="4" fill="#059669">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="198" y="338" class="mono ok" font-size="12">Open to opportunities</text>
+
+    <line x1="40" y1="360" x2="620" y2="360" stroke="#2563EB" stroke-opacity="0.20"/>
+
+    <text x="40" y="388" class="mono label" font-size="10" letter-spacing="1.6">ENGINEERING FOCUS</text>
+
+    <g class="mono" font-size="11" fill="#0F172A">
+      <text x="40" y="414">▸ Full-Stack Applications</text>
+      <text x="40" y="434">▸ Backend Architecture</text>
+      <text x="40" y="454">▸ REST API Development</text>
+      <text x="40" y="474">▸ AI-Powered Applications</text>
+      <text x="40" y="494">▸ Data Analytics & Security Tooling</text>
+    </g>
+
+    <text x="360" y="388" class="mono label" font-size="10" letter-spacing="1.6">CORE STACK</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">
+      <g><rect x="360" y="400" width="74" height="20" rx="10" fill="#2563EB" fill-opacity="0.10" stroke="#2563EB" stroke-opacity="0.40"/><text x="370" y="414" fill="#2563EB">Python</text></g>
+      <g><rect x="444" y="400" width="74" height="20" rx="10" fill="#2563EB" fill-opacity="0.10" stroke="#2563EB" stroke-opacity="0.40"/><text x="454" y="414" fill="#2563EB">Django</text></g>
+      <g><rect x="528" y="400" width="74" height="20" rx="10" fill="#7C3AED" fill-opacity="0.10" stroke="#7C3AED" stroke-opacity="0.40"/><text x="540" y="414" fill="#7C3AED">React</text></g>
+      <g><rect x="360" y="428" width="74" height="20" rx="10" fill="#7C3AED" fill-opacity="0.10" stroke="#7C3AED" stroke-opacity="0.40"/><text x="370" y="442" fill="#7C3AED">Flask</text></g>
+      <g><rect x="444" y="428" width="94" height="20" rx="10" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.45"/><text x="454" y="442" fill="#059669">PostgreSQL</text></g>
+      <g><rect x="548" y="428" width="54" height="20" rx="10" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.45"/><text x="558" y="442" fill="#059669">NLP</text></g>
+      <g><rect x="360" y="456" width="74" height="20" rx="10" fill="#06B6D4" fill-opacity="0.10" stroke="#06B6D4" stroke-opacity="0.40"/><text x="370" y="470" fill="#0891B2">Next.js</text></g>
+      <g><rect x="444" y="456" width="84" height="20" rx="10" fill="#7C3AED" fill-opacity="0.10" stroke="#7C3AED" stroke-opacity="0.40"/><text x="454" y="470" fill="#7C3AED">Tailwind</text></g>
+      <g><rect x="538" y="456" width="64" height="20" rx="10" fill="#2563EB" fill-opacity="0.10" stroke="#2563EB" stroke-opacity="0.40"/><text x="548" y="470" fill="#2563EB">SQLite</text></g>
+    </g>
+
+    <line x1="40" y1="500" x2="620" y2="500" stroke="#2563EB" stroke-opacity="0.20"/>
+
+    <g class="mono" font-size="10.5">
+      <text x="40" y="524" fill="#475569">┌─ SYSTEM STATUS</text>
+      <text x="40" y="542" fill="#059669">├─ Coding        ACTIVE</text>
+      <text x="40" y="558" fill="#059669">├─ Learning      ACTIVE</text>
+      <text x="40" y="574" fill="#059669">└─ Opportunities AVAILABLE</text>
+    </g>
+
+    <rect x="596" y="512" width="7" height="12" fill="#2563EB">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
