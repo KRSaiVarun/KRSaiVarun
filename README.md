@@ -1,4 +1,22 @@
 
+
+---
+
+## 👨‍💻 About Me
+
+Hi, I'm **K.R. Sai Varun**, a developer passionate about building scalable web applications, AI-powered tools, and data-driven solutions.
+
+I enjoy turning ideas into functional products — from designing database schemas and developing secure APIs to building responsive interfaces and interactive dashboards.
+
+- 🎓 BCA Graduate, currently pursuing MCA in Bengaluru, India.
+- 💻 Focused on full-stack development, backend engineering, and data analytics.
+- 🤖 Exploring machine learning, NLP, and AI-powered applications.
+- 🔐 Interested in application security, performance optimization, and scalable system design.
+- 🚀 Passionate about learning by building real-world projects.
+
+> My goal is simple: build useful software, solve meaningful problems, and keep improving with every project.
+
+---
 <!-- =========================================================
      K.R. SAI VARUN — GITHUB PROFILE README
      ========================================================= -->
@@ -38,24 +56,6 @@
   <br/>
   Building practical applications with clean architecture, intelligent automation, and modern web technologies.
 </p>
-
----
-
-## 👨‍💻 About Me
-
-Hi, I'm **K.R. Sai Varun**, a developer passionate about building scalable web applications, AI-powered tools, and data-driven solutions.
-
-I enjoy turning ideas into functional products — from designing database schemas and developing secure APIs to building responsive interfaces and interactive dashboards.
-
-- 🎓 BCA Graduate, currently pursuing MCA in Bengaluru, India.
-- 💻 Focused on full-stack development, backend engineering, and data analytics.
-- 🤖 Exploring machine learning, NLP, and AI-powered applications.
-- 🔐 Interested in application security, performance optimization, and scalable system design.
-- 🚀 Passionate about learning by building real-world projects.
-
-> My goal is simple: build useful software, solve meaningful problems, and keep improving with every project.
-
----
 
 ## 🛠️ Tech Stack
 
