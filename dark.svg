@@ -1,199 +1,224 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 580">
-  <defs>
-    <pattern id="faceDots" width="6" height="6" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="3" r="1.1" fill="#F5C9A6"/>
-    </pattern>
-    <pattern id="skinShadow" width="6" height="6" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="3" r="1.1" fill="#D9A17C"/>
-    </pattern>
-    <pattern id="hairDots" width="5" height="5" patternUnits="userSpaceOnUse">
-      <circle cx="2.5" cy="2.5" r="1.4" fill="#1A1010"/>
-    </pattern>
-    <pattern id="shirtDots" width="7" height="7" patternUnits="userSpaceOnUse">
-      <circle cx="3.5" cy="3.5" r="1.3" fill="#0B0B0F" opacity="0.95"/>
-    </pattern>
-    <linearGradient id="warmBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8B98A"/>
-      <stop offset="100%" stop-color="#C98A5A"/>
-    </linearGradient>
-    <linearGradient id="chainGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#E8E8E8"/>
-      <stop offset="100%" stop-color="#9A9A9A"/>
-    </linearGradient>
-  </defs>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visual.Map - K.R. Sai Varun</title>
+    <style>
+        :root {
+            --cyan: #00ffff;
+            --dark-cyan: #00aaaa;
+            --black: #000000;
+            --grid: rgba(0, 255, 255, 0.1);
+        }
 
-  <!-- Warm background -->
-  <rect x="0" y="0" width="520" height="580" fill="url(#warmBg)"/>
+        body {
+            background-color: var(--black);
+            color: var(--cyan);
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
 
-  <!-- Blurred menu board hint -->
-  <g opacity="0.35">
-    <rect x="290" y="120" width="210" height="260" fill="#F2E6D0" rx="4"/>
-    <rect x="300" y="140" width="180" height="4" fill="#3A2A1A"/>
-    <rect x="300" y="160" width="150" height="3" fill="#5A4632"/>
-    <rect x="300" y="180" width="170" height="3" fill="#5A4632"/>
-    <rect x="300" y="200" width="140" height="3" fill="#5A4632"/>
-    <rect x="300" y="220" width="160" height="3" fill="#5A4632"/>
-  </g>
+        /* Scanline effect */
+        body::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(0,255,255,0.05) 50%);
+            background-size: 100% 4px;
+            z-index: 10;
+            pointer-events: none;
+        }
 
-  <!-- Wood panel hints -->
-  <g opacity="0.4" stroke="#7A4A22" stroke-width="2" fill="none">
-    <path d="M 0 300 H 520"/>
-    <path d="M 0 360 H 520"/>
-    <path d="M 100 200 V 400"/>
-    <path d="M 240 180 V 400"/>
-  </g>
+        /* Main Container */
+        .os-window {
+            width: 80vw;
+            height: 80vh;
+            border: 2px solid var(--cyan);
+            position: relative;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+            background: linear-gradient(45deg, #0a0a0a 0%, #1a1a1a 100%);
+            display: flex;
+            overflow: hidden;
+        }
 
-  <!-- Shoulders / black shirt -->
-  <path d="M 20 580
-           L 40 470
-           Q 90 400 180 385
-           L 220 375
-           L 300 375
-           L 340 385
-           Q 430 400 480 470
-           L 500 580 Z"
-        fill="url(#shirtDots)"
-        stroke="#05050A"
-        stroke-width="2"/>
+        /* Grid Background */
+        .os-window::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: 
+                linear-gradient(var(--grid) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+            background-size: 30px 30px;
+            pointer-events: none;
+        }
 
-  <!-- White inner collar -->
-  <path d="M 200 375
-           L 230 430
-           L 270 400
-           L 310 430
-           L 340 380
-           L 320 375
-           L 270 395
-           L 220 375 Z"
-        fill="#EDEDED"
-        stroke="#B0B0B0"
-        stroke-width="1.2"/>
+        /* Title Bar */
+        .title-bar {
+            position: absolute;
+            top: 0; left: 0; width: 100%;
+            height: 30px;
+            border-bottom: 2px solid var(--cyan);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+            box-sizing: border-box;
+            background: var(--black);
+            z-index: 5;
+        }
 
-  <!-- Neck -->
-  <path d="M 220 310
-           L 218 385
-           Q 260 405 305 385
-           L 305 310 Z"
-        fill="url(#skinShadow)"/>
+        .title { font-weight: bold; }
+        .controls span { margin-left: 10px; cursor: pointer; }
 
-  <!-- Silver chain -->
-  <path d="M 235 400
-           Q 260 445 290 400"
-        fill="none"
-        stroke="url(#chainGrad)"
-        stroke-width="3"
-        stroke-linecap="round"/>
-  <circle cx="262" cy="448" r="4" fill="#D8D8D8" stroke="#8A8A8A" stroke-width="1"/>
+        /* Left Content: The Map/Profile */
+        .map-section {
+            flex: 2;
+            padding-top: 30px; /* Space for title bar */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
 
-  <!-- Hair back layer (thick, wavy) -->
-  <path d="M 120 260
-           Q 95 190 130 130
-           Q 170 75 250 70
-           Q 330 70 360 130
-           Q 385 190 355 260
-           L 340 220
-           Q 320 170 280 150
-           Q 250 135 220 145
-           Q 180 155 165 200
-           Z"
-        fill="url(#hairDots)"
-        stroke="#0A0606"
-        stroke-width="2"/>
+        /* The stylized profile - using a combination of border-radius and pseudo-elements */
+        .profile-stylized {
+            width: 70%;
+            height: 80%;
+            border: 2px solid var(--cyan);
+            border-radius: 50% 50% 10px 10px;
+            position: relative;
+            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCI+PGNpcmNsZSBjeD0iMTUiIGN5PSIxNSIgcj0iMSIgZmlsbD0icmdiYSgwLCAyNTUsIDI1NSwgMC4zKSIvPjwvc3ZnPg=='); /* Dotted pattern fallback */
+            overflow: hidden;
+        }
 
-  <!-- Hair top volume -->
-  <path d="M 140 160
-           Q 160 100 230 85
-           Q 300 75 345 120
-           Q 320 110 280 115
-           Q 230 120 195 155
-           Q 175 175 165 205
-           Q 150 185 140 160 Z"
-        fill="#120A0A"/>
+        /* Dotted grid texture over profile */
+        .profile-stylized::before {
+            content: "";
+            position: absolute;
+            width: 200%; height: 200%;
+            top: -50%; left: -50%;
+            background-image: radial-gradient(var(--cyan) 1px, transparent 1px);
+            background-size: 5px 5px;
+            opacity: 0.3;
+            transform: rotate(45deg);
+        }
 
-  <!-- Face (3/4 view, turned right) -->
-  <path d="M 150 220
-           Q 150 165 210 160
-           Q 275 158 300 210
-           Q 310 250 300 300
-           Q 295 350 260 375
-           Q 230 390 200 380
-           Q 165 365 155 315
-           Q 148 270 150 220 Z"
-        fill="url(#faceDots)"
-        stroke="#C98A5A"
-        stroke-width="1.2"
-        stroke-opacity="0.6"/>
+        /* Simple line-art mouth */
+        .profile-stylized::after {
+            content: "____";
+            position: absolute;
+            bottom: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--cyan);
+            font-size: 2em;
+            letter-spacing: -2px;
+        }
 
-  <!-- Far ear hint -->
-  <path d="M 148 265 Q 138 270 140 295 Q 145 305 152 300"
-        fill="url(#skinShadow)" stroke="#C98A5A" stroke-width="1"/>
+        /* Right Content: Stats */
+        .data-section {
+            flex: 1;
+            padding: 40px 20px 20px;
+            border-left: 2px solid var(--cyan);
+            background: rgba(0,0,0,0.5);
+            z-index: 2;
+            overflow-y: auto;
+        }
 
-  <!-- Jaw shadow -->
-  <path d="M 200 380 Q 240 388 270 370 Q 250 385 215 382 Z"
-        fill="#C98A5A" opacity="0.35"/>
+        h2 { font-size: 1.2em; border-bottom: 1px solid var(--cyan); padding-bottom: 5px; margin-top: 0; }
+        .stat-group { margin-bottom: 20px; }
+        .data-item { margin: 5px 0; font-size: 0.9em; }
+        .item-label { color: var(--dark-cyan); }
+        .item-value { float: right; }
 
-  <!-- Hair fringe over forehead (swept to left) -->
-  <path d="M 155 195
-           Q 175 155 220 148
-           Q 265 142 295 170
-           Q 305 190 300 215
-           Q 280 185 245 178
-           Q 205 175 175 200
-           Q 165 210 158 220
-           Z"
-        fill="#120A0A"/>
+        /* Icon 'stamps' */
+        .tech-icons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
 
-  <!-- Eyebrows -->
-  <path d="M 178 238 Q 195 232 210 238"
-        fill="none" stroke="#1A1010" stroke-width="3" stroke-linecap="round"/>
-  <path d="M 245 236 Q 262 230 278 238"
-        fill="none" stroke="#1A1010" stroke-width="3" stroke-linecap="round"/>
+        .icon-row {
+            border: 1px solid var(--cyan);
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            font-size: 0.8em;
+        }
 
-  <!-- Eyes (looking right) -->
-  <g>
-    <!-- Far eye -->
-    <ellipse cx="195" cy="255" rx="10" ry="6" fill="#FFFFFF"/>
-    <circle cx="199" cy="255" r="4" fill="#3A2418"/>
-    <circle cx="200" cy="254" r="1.5" fill="#FFFFFF"/>
-    <!-- Near eye -->
-    <ellipse cx="262" cy="253" rx="11" ry="6.5" fill="#FFFFFF"/>
-    <circle cx="267" cy="253" r="4.5" fill="#3A2418"/>
-    <circle cx="268" cy="252" r="1.6" fill="#FFFFFF"/>
-  </g>
+        .icon-box {
+            width: 20px; height: 20px;
+            border: 1px solid var(--cyan);
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--black);
+            background-color: var(--cyan);
+            font-weight: bold;
+        }
 
-  <!-- Nose (shifted right for 3/4 view) -->
-  <path d="M 235 260
-           Q 238 295 245 315
-           Q 252 322 262 318"
-        fill="none" stroke="#B87A50" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M 245 315 Q 255 320 262 318"
-        fill="none" stroke="#8A5A38" stroke-width="1" opacity="0.6"/>
+    </style>
+</head>
+<body>
 
-  <!-- Mustache -->
-  <path d="M 215 340
-           Q 235 332 255 338
-           Q 270 342 282 338"
-        fill="none" stroke="#1A1010" stroke-width="3.5" stroke-linecap="round" opacity="0.85"/>
-  <path d="M 218 344 Q 235 340 252 344"
-        fill="none" stroke="#1A1010" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <div class="os-window">
+        <div class="title-bar">
+            <span class="title">VISUAL.MAP</span>
+            <div class="controls">
+                <span>_</span>
+                <span>&#9634;</span>
+                <span>X</span>
+            </div>
+        </div>
 
-  <!-- Gentle smile -->
-  <path d="M 210 360
-           Q 235 372 265 362"
-        fill="none" stroke="#8A4A38" stroke-width="2" stroke-linecap="round"/>
-  <path d="M 218 358 Q 235 366 255 360"
-        fill="none" stroke="#C98A5A" stroke-width="1" opacity="0.5"/>
+        <div class="map-section">
+            <div class="profile-stylized"></div>
+        </div>
 
-  <!-- Chin stubble hint -->
-  <g fill="#1A1010" opacity="0.25">
-    <circle cx="215" cy="378" r="0.8"/>
-    <circle cx="225" cy="382" r="0.8"/>
-    <circle cx="235" cy="384" r="0.8"/>
-    <circle cx="245" cy="383" r="0.8"/>
-    <circle cx="255" cy="380" r="0.8"/>
-    <circle cx="265" cy="375" r="0.8"/>
-  </g>
+        <div class="data-section">
+            <div class="stat-group">
+                <h2>SYSTEM CODE</h2>
+                <div class="data-item">K.R. Sai Varun</div>
+                <div class="data-item">Bengaluru</div>
+            </div>
 
-  <!-- Subtle warm highlight on cheek -->
-  <ellipse cx="230" cy="300" rx="20" ry="12" fill="#F5C9A6" opacity="0.3"/>
-</svg>
+            <div class="tech-icons">
+                <div class="icon-row"><div class="icon-box">Py</div> Python</div>
+                <div class="icon-row"><div class="icon-box">dj</div> Django</div>
+                <div class="icon-row"><div class="icon-box">Pg</div> PostgreSQL</div>
+                <div class="icon-row"><div class="icon-box">NL</div> NLP</div>
+            </div>
+
+            <div class="stat-group">
+                <h2>CORE STACKS</h2>
+                <div class="data-item">
+                    <span class="item-label">Python</span>
+                    <span class="item-value">98.42%</span>
+                </div>
+                <div class="data-item">
+                    <span class="item-label">Django</span>
+                    <span class="item-value">5.50%</span>
+                </div>
+                <div class="data-item">
+                    <span class="item-label">PostgreSQL</span>
+                    <span class="item-value">0.75%</span>
+                </div>
+                <div class="data-item">
+                    <span class="item-label">NLP</span>
+                    <span class="item-value">0.15%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
