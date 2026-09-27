@@ -193,6 +193,7 @@ text
 💼 **Open to Internships & Entry-Level Full-Stack / Backend Roles**
 🤝 Interested in collaborating on **Web, AI & Open-Source projects**
 
+
 > If you're building something meaningful and need someone who ships — let's talk.
 sai@github:~$ echo "Thanks for visiting."
 
